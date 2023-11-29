@@ -43,15 +43,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <!-- Navigasi halaman Home -->
             <li class="nav-item">
               <a class="nav-link active" href="{{ route('homepage') }}">Home</a>
             </li>
+            <!-- Navigasi halaman Home -->
+            <li class="nav-item">
               <a class="nav-link active" href="{{ route('produk') }}">Produk</a>
             </li>
+            <!-- Navigasi halaman Home -->
             <li class="nav-item">
               <a class="nav-link active" href="{{ route('contact') }}">Contact</a>
             </li>
+            <!-- Navigasi halaman Home -->
             <li class="nav-item">
               <a class="nav-link active" href="{{ route('about') }}">About</a>
             </li>
