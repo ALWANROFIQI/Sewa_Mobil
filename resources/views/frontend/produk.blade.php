@@ -43,6 +43,7 @@
                   <div class="rent-price mb-3">
                     <span class="text-primary">{{ number_format($car->harga_sewa) }}/</span>day
                   </div>
+                  <!-- Produk detail -->
                   <ul class="list-unstyled list-style-group">
                     <li
                       class="border-bottom p-2 d-flex justify-content-between"
