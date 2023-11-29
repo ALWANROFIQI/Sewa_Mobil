@@ -16,40 +16,52 @@
       <div class="container px-3 px-lg-2">
         <h2 class="text-center mb-5">Tim Kami</h2>
         <div class="row">
+          <!-- About detail-->
   <div class="column">
     <div class="card">
-      <img src={{ asset('frontend/img/alwan.jpg') }} alt="idad" style="width:100%">
+      <!-- image-->
+      <img src={{ asset('frontend/img/alwan.jpg') }} alt="alwan" style="width:100%">
       <div class="container">
+        <!-- detail information-->
         <h2>Alwan Rofiqi</h2>
         <p class="title">Mahasiswa</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>jane@example.com</p>
+        <!-- Action -->
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
 
+  <!-- About detail-->
   <div class="column">
     <div class="card">
-      <img src={{ asset('frontend/img/idad.jpg') }} alt="Mike" style="width:100%">
+      <!-- image-->
+      <img src={{ asset('frontend/img/idad.jpg') }} alt="idad" style="width:100%">
       <div class="container">
+        <!-- detail information-->
         <h2>Moch. Emil idad</h2>
         <p class="title">Mahasiswa</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>mike@example.com</p>
+        <!-- Action -->
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
   
+  <!-- About detail-->
   <div class="column">
     <div class="card">
-      <img src={{ asset('frontend/img/a.jpg') }} alt="John" style="width:100%">
+      <!-- image-->
+      <img src={{ asset('frontend/img/a.jpg') }} alt="afin" style="width:100%">
       <div class="container">
+        <!-- detail information-->
         <h2>Achmad Nurs Syururi Arifin</h2>
         <p class="title">Mahasiswa</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>john@example.com</p>
+        <!-- Action -->
         <p><button class="button">Contact</button></p>
       </div>
     </div>
