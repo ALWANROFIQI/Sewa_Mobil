@@ -22,9 +22,11 @@
             <div class="contact-form">
               <form action="{{ route('contact.store') }}" method="post">
                 @csrf
+                <!-- detail contact -->
                 <div class="row">
                   <div class="col-lg-6 col-md-6 mb-2">
                     <div class="name-input form-group">
+                      <!-- Input name -->
                       <input
                         type="text"
                         name="nama"
@@ -33,6 +35,7 @@
                       />
                     </div>
                   </div>
+                  <!-- Input email address -->
                   <div class="col-lg-6 col-md-6 mb-2">
                     <div class="email-input form-group">
                       <input
@@ -44,6 +47,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- Input email subject -->
                 <div class="row">
                   <div class="col-lg-12 col-md-6 mb-2">
                     <div class="subject-input form-group">
@@ -56,6 +60,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- Input message -->
                 <div class="message-input form-group mb-3">
                   <textarea
                     name="pesan"
@@ -65,6 +70,7 @@
                     class="form-control"
                   ></textarea>
                 </div>
+                <!-- Action -->
                 <div class="input-submit form-group">
                   <button
                     type="submit"
